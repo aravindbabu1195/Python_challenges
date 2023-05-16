@@ -2,6 +2,7 @@
 i=19
 while i<=30:
     i+=1
+    print(i)
+
     if i==28:
         break
-    print(i)

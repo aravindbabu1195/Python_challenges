@@ -1,8 +1,5 @@
 #Create list from a exixting list
 li=["aravind","arun","ashwin","midhun","devanand"]
-new=[]
-for i in li:
-    if "a" in i:
-        new.append(i)
-print(new)
+newstring="Names :{0} , {1} , {2} , {3} ".format(li[2],li[1],li[4],li[3])
+print(newstring)
 

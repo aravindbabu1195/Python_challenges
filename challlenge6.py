@@ -3,7 +3,7 @@ Month=["1.January","2.February","3.March","4.April","5.May","6.June","7.July","8
 for i in Month:
     print(i)
 
-Choice=int(input("Enter your choice"))
+Choice=int(input("Enter your choice :"))
 if Choice==1:
     print("January")
 elif Choice==2:

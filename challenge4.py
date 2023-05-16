@@ -1,8 +1,14 @@
-def div():
+# function defining..
+def function1(x,y):
     try:
-        x=4
-        y=0
-        print(x/y)
+
+        return (x/y)
     except:
         print("Error :dividing by zero")
-div()
+        print()
+    finally:
+        print("Program completed")
+
+# function calling..
+print(function1(int(input("Enter Two numbers :")),
+    int(input())))
