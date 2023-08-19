@@ -6,3 +6,4 @@ print(x)
 
 y=[j for j in range(3,99,2)]
 print(y)
+
